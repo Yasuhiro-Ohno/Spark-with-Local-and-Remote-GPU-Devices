@@ -1,0 +1,15 @@
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/mllib/src/main/scala/org/apache/spark/ml/Transformer.scala:119: method callUDF in object functions is deprecated: Use udf. This will be removed in Spark 2.0.[0m
+[0m[[33mwarn[0m] [0m      callUDF(this.createTransformFunc, outputDataType, dataset($(inputCol))))[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/PythonMLLibAPI.scala:344: method setRuns in class KMeans is deprecated: Support for runs is deprecated. This param will have no effect in 1.7.0.[0m
+[0m[[33mwarn[0m] [0m      .setRuns(runs)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/PowerIterationClustering.scala:388: method setRuns in class KMeans is deprecated: Support for runs is deprecated. This param will have no effect in 1.7.0.[0m
+[0m[[33mwarn[0m] [0m      .setRuns(5)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/KMeans.scala:494: method setRuns in class KMeans is deprecated: Support for runs is deprecated. This param will have no effect in 1.7.0.[0m
+[0m[[33mwarn[0m] [0m      .setRuns(runs)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/KMeans.scala:518: method setRuns in class KMeans is deprecated: Support for runs is deprecated. This param will have no effect in 1.7.0.[0m
+[0m[[33mwarn[0m] [0m      .setRuns(runs)[0m
+[0m[[33mwarn[0m] [0m[0m

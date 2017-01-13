@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/mllib/src/main/resources/META-INF,/home/ohno/bin/spark-1.6.0/mllib/target/scala-2.10/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/mllib/src/main/resources/META-INF/services,/home/ohno/bin/spark-1.6.0/mllib/target/scala-2.10/classes/META-INF/services)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/mllib/src/main/resources/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister,/home/ohno/bin/spark-1.6.0/mllib/target/scala-2.10/classes/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister)[0m

@@ -1,0 +1,10 @@
+package org.apache.spark.sql.catalyst.expressions.aggregate;
+// no position
+/**
+ * An {@link AggregateFunction} with {@link Complete} mode is used to evaluate this function directly
+ * from original input rows without any partial aggregation.
+ * This function updates the given aggregation buffer with the original input of this
+ * function. When it has processed all input rows, the final result of this function is returned.
+ */
+  class Complete implements org.apache.spark.sql.catalyst.expressions.aggregate.AggregateMode, scala.Product, scala.Serializable {
+}

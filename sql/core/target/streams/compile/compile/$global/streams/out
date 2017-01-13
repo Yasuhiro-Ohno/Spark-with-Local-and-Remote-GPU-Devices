@@ -1,0 +1,88 @@
+[0m[[0mdebug[0m] [0mThe org.apache.spark.api.python.PythonRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.api.python.PythonRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.api.python.PythonRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/python.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.UnionRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.UnionRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.UnionRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/DataSourceStrategy.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.PartitionwiseSampledRDD$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.PartitionwiseSampledRDD$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.PartitionwiseSampledRDD$.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/basicOperators.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.MapPartitionsRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.MapPartitionsRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.MapPartitionsRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/DataSourceStrategy.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.PartitionwiseSampledRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.PartitionwiseSampledRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.PartitionwiseSampledRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/basicOperators.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.MapPartitionsRDD$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.MapPartitionsRDD$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.MapPartitionsRDD$.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/DataSourceStrategy.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.api.python.PythonBroadcast source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.api.python.PythonBroadcast: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.api.python.PythonBroadcast.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/UserDefinedFunction.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/python.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.api.python.PythonRunner source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.api.python.PythonRunner: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.api.python.PythonRunner.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/python.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.ShuffledRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.ShuffledRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.ShuffledRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/basicOperators.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.api.python.PythonRDD$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.api.python.PythonRDD$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.api.python.PythonRDD$.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/DataFrame.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/python.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(org.apache.spark.api.python.PythonRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.UnionRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.PartitionwiseSampledRDD$,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.MapPartitionsRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.PartitionwiseSampledRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.MapPartitionsRDD$,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.api.python.PythonBroadcast,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.api.python.PythonRunner,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.ShuffledRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.api.python.PythonRDD$,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

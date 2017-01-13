@@ -1,0 +1,39 @@
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.CoGroupedRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.CoGroupedRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.CoGroupedRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/dstream/ReducedWindowedDStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.PartitionerAwareUnionRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.PartitionerAwareUnionRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.PartitionerAwareUnionRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/dstream/WindowedDStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.UnionRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.UnionRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.UnionRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/dstream/QueueInputDStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/dstream/WindowedDStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/dstream/FileInputDStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/dstream/UnionDStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(org.apache.spark.rdd.CoGroupedRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.PartitionerAwareUnionRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.UnionRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

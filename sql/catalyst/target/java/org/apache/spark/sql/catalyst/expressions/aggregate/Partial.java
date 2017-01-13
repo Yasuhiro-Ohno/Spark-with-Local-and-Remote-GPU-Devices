@@ -1,0 +1,9 @@
+package org.apache.spark.sql.catalyst.expressions.aggregate;
+// no position
+/**
+ * An {@link AggregateFunction} with {@link Partial} mode is used for partial aggregation.
+ * This function updates the given aggregation buffer with the original input of this
+ * function. When it has processed all input rows, the aggregation buffer is returned.
+ */
+  class Partial implements org.apache.spark.sql.catalyst.expressions.aggregate.AggregateMode, scala.Product, scala.Serializable {
+}

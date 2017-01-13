@@ -1,0 +1,18 @@
+package org.apache.spark.sql.catalyst.plans.logical;
+/**
+ * Cube is a syntactic sugar for GROUPING SETS, and will be transformed to GroupingSets,
+ * and eventually will be transformed to Aggregate(.., Expand) in Analyzer
+ * <p>
+ * param:  groupByExprs The Group By expressions candidates.
+ * param:  child        Child operator
+ * param:  aggregations The Aggregation expressions, those non selected group by expressions
+ *                     will be considered as constant null if it appears in the expressions
+ */
+public  class Cube extends org.apache.spark.sql.catalyst.plans.logical.UnaryNode implements org.apache.spark.sql.catalyst.plans.logical.GroupingAnalytics, scala.Product, scala.Serializable {
+  public  scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.Expression> groupByExprs () { throw new RuntimeException(); }
+  public  org.apache.spark.sql.catalyst.plans.logical.LogicalPlan child () { throw new RuntimeException(); }
+  public  scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.NamedExpression> aggregations () { throw new RuntimeException(); }
+  // not preceding
+  public   Cube (scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.Expression> groupByExprs, org.apache.spark.sql.catalyst.plans.logical.LogicalPlan child, scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.NamedExpression> aggregations) { throw new RuntimeException(); }
+  public  org.apache.spark.sql.catalyst.plans.logical.GroupingAnalytics withNewAggs (scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.NamedExpression> aggs) { throw new RuntimeException(); }
+}

@@ -1,0 +1,6 @@
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/misc.scala:127: method shaHex in object DigestUtils is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    UTF8String.fromString(DigestUtils.shaHex(input.asInstanceOf[Array[Byte]]))[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/DataType.scala:95: method fromCaseClassString in object DataType is deprecated: Use DataType.fromJson instead[0m
+[0m[[33mwarn[0m] [0m    Try(DataType.fromJson(raw)).getOrElse(DataType.fromCaseClassString(raw))[0m
+[0m[[33mwarn[0m] [0m[0m

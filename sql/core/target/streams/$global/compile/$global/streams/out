@@ -1,0 +1,36 @@
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/SqlNewHadoopRDD.scala:80: constructor Job in class Job is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    val newJob = new Job(conf)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/parquet/ParquetRelation.scala:343: method isDir in class FileStatus is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m            f.getLen, f.isDir, f.getReplication, f.getBlockSize, f.getModificationTime,[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/parquet/ParquetRelation.scala:645: method fromCaseClassString in object DataType is deprecated: Use DataType.fromJson instead[0m
+[0m[[33mwarn[0m] [0m            DataType.fromCaseClassString(serializedSchema.get)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/parquet/ParquetRelation.scala:828: method fromCaseClassString in object DataType is deprecated: Use DataType.fromJson instead[0m
+[0m[[33mwarn[0m] [0m        DataType.fromCaseClassString(schemaString).asInstanceOf[StructType][0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/text/DefaultSource.scala:91: constructor Job in class Job is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    val job = new Job(sqlContext.sparkContext.hadoopConfiguration)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/sources/interfaces.scala:465: method isDir in class FileStatus is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m        val (dirs, files) = statuses.partition(_.isDir)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/sources/interfaces.scala:861: method isDir in class FileStatus is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m        val (dirs, files) = fs.listStatus(status.getPath, pathFilter).partition(_.isDir)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/sources/interfaces.scala:864: method isDir in class FileStatus is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m        val (dirs, files) = fs.listStatus(status.getPath).partition(_.isDir)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/sources/interfaces.scala:899: method isDir in class FileStatus is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m        status.isDir,[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/WriterContainer.scala:204: constructor TaskID in class TaskID is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    this.taskId = new TaskID(this.jobId, true, splitId)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/json/JSONRelation.scala:92: constructor Job in class Job is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    val job = new Job(sqlContext.sparkContext.hadoopConfiguration)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/sql/core/src/main/scala/org/apache/spark/sql/execution/datasources/InsertIntoHadoopFsRelation.scala:96: constructor Job in class Job is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m      val job = new Job(hadoopConf)[0m
+[0m[[33mwarn[0m] [0m[0m

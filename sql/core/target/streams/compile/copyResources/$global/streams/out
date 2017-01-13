@@ -1,0 +1,13 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/META-INF,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/META-INF/services,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/META-INF/services)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark/sql,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark/sql)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark/sql/execution,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark/sql/execution)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark/sql/execution/ui)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui/static,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark/sql/execution/ui/static)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui/static/spark-sql-viz.js,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark/sql/execution/ui/static/spark-sql-viz.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui/static/spark-sql-viz.css,/home/ohno/bin/spark-1.6.0/sql/core/target/scala-2.10/classes/org/apache/spark/sql/execution/ui/static/spark-sql-viz.css)[0m

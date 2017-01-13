@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache/spark,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache/spark)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache/spark/streaming,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache/spark/streaming)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache/spark/streaming/ui,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache/spark/streaming/ui)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache/spark/streaming/ui/static,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache/spark/streaming/ui/static)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache/spark/streaming/ui/static/streaming-page.js,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache/spark/streaming/ui/static/streaming-page.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/ohno/bin/spark-1.6.0/streaming/src/main/resources/org/apache/spark/streaming/ui/static/streaming-page.css,/home/ohno/bin/spark-1.6.0/streaming/target/scala-2.10/classes/org/apache/spark/streaming/ui/static/streaming-page.css)[0m

@@ -1,0 +1,6 @@
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/receiver/ActorReceiver.scala:147: value actorSystem in class SparkEnv is deprecated: Actor system is no longer supported as of 1.4.0[0m
+[0m[[33mwarn[0m] [0m  protected lazy val actorSupervisor = SparkEnv.get.actorSystem.actorOf(Props(new Supervisor),[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/util/FileBasedWriteAheadLog.scala:227: method isDir in class FileStatus is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    if (fileSystem.exists(logDirectoryPath) && fileSystem.getFileStatus(logDirectoryPath).isDir) {[0m
+[0m[[33mwarn[0m] [0m[0m
