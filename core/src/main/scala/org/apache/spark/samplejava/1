@@ -1,0 +1,128 @@
+package ohno;
+
+import java.lang.String;
+import java.lang.System;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaSparkContext;
+
+import static jcuda.driver.JCudaDriver.*;
+import java.io.*;
+import jcuda.*;
+import jcuda.driver.*;
+
+import ohno.*;
+
+public class IntInt_RDD_Collection{
+	public static final int BLOCKSIZE=128;
+	public int rdd_id;
+	public int length;
+	public int len;
+	public String rdd_type;
+	public int[] ks_rdd_array;
+	public int[] rdd_array;
+	public int[] ks_result_array;
+	public int[] result_array;
+	private CUdeviceptr d_ks_rdd_array;
+
+	public IntInt_RDD_Collection(int id, int[] ks_array, int[] array){
+		rdd_id = id;
+		length = ks_array.length;
+		len = ((length-1)/BLOCKSIZE+1) * BLOCKSIZE;
+		rdd_type = "Int, Int";
+		ks_rdd_array = new int[len];
+		rdd_array = new int[len];
+		for (int i = 0; i < length; i++) {
+			ks_rdd_array[i] = ks_array[i];
+			rdd_array[i] = array[i];
+		}
+		ks_result_array = new int[len];
+		result_array = new int[len];
+	}
+
+	public void sortByGPU(){
+		Arrays.fill(ks_result_array, 0);
+		Arrays.fill(result_array, 0);
+
+		// Host Memory Allocate
+		int num_array[] = new int[len];
+
+		// Device Memory Allocate
+		CUdeviceptr d_num_array = new CUdeviceptr();
+		cuMemAlloc(d_num_array, len * Sizeof.INT);
+
+//		// Data Transfer (Host to Device)
+//		cuMemcpyHtoD(d_num_array, Pointer.to(num_array), len* Sizeof.INT);
+
+		// Load the ptx file
+		CUmodule module = new CUmodule();
+		cuModuleLoad(module, "sortIntKeyByGPU.ptx");
+
+		// Obtain a function pointer to the "sortkey" function
+		CUfunction function = new CUfunction();
+		cuModuleGetFunction(function, module, "sortkey");
+
+		// Set Kernel Parameters
+		Pointer kernelParameters = Pointer.to(
+		Pointer.to(d_ks_rdd_array),
+		Pointer.to(d_num_array),
+		Pointer.to(new int[]{len})
+		);
+
+		// Kernel Execution
+		cuLaunchKernel(function,
+			len/BLOCKSIZE, 1, 1,
+			BLOCKSIZE, 1, 1,
+			0, null,
+			kernelParameters, null
+		);
+		cuCtxSynchronize();
+
+		// Data Transfer (Device to Host)
+		cuMemcpyDtoH(Pointer.to(num_array), d_num_array, len * Sizeof.INT);
+
+		// Result Execution
+		for (int i = 0; i < len; i++) {
+			ks_result_array[i] = ks_rdd_array[num_array[i]];
+			result_array[i] = rdd_array[num_array[i]];
+			System.out.println(num_array[i]);
+		}
+		System.out.println(num_array[0]);
+		System.out.println(num_array[1]);
+		System.out.println(num_array[2]);
+		System.out.println(num_array[3]);
+		System.out.println(num_array[1020]);
+		System.out.println(num_array[1021]);
+		System.out.println(num_array[1022]);
+		System.out.println(num_array[1023]);
+
+		// Memory Free
+		cuMemFree(d_num_array);
+	}
+
+	public void initializeGPU(){
+		// Initialize the driver and create a context for the first device
+		cuInit(0);
+		CUdevice device = new CUdevice();
+		cuDeviceGet(device, 0);
+		CUcontext context = new CUcontext();
+		cuCtxCreate(context, 0, device);
+
+// Device Memory Allocate
+		d_ks_rdd_array = new CUdeviceptr();
+		cuMemAlloc(d_ks_rdd_array, len * Sizeof.INT);
+
+		// Data Transfer (Host to Device)
+		cuMemcpyHtoD(d_ks_rdd_array, Pointer.to(ks_rdd_array), len * Sizeof.INT);
+	}
+
+	public void finishGPU(){
+		// Memory Free
+		cuMemFree(d_ks_rdd_array);
+		Arrays.fill(ks_result_array, 0);
+		Arrays.fill(result_array, 0);
+		System.out.println("Finish.");
+	}
+}
