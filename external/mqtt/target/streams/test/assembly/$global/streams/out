@@ -1,0 +1,933 @@
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-continuation-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-http-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-io-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-jndi-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.mail.glassfish-1.4.1.v201005082020.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.activation-1.1.0.v201105071233.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-library-2.10.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-lang3-3.3.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: unused-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jul-to-slf4j-1.7.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jcl-over-slf4j-1.7.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: slf4j-log4j12-1.7.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: compress-lzf-1.0.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: snappy-java-1.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: lz4-1.3.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: RoaringBitmap-0.5.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: netty-all-4.0.29.Final.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: akka-remote_2.10-2.3.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: guava-14.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: leveldbjni-all-1.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-databind-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-annotations-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-core-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: akka-actor_2.10-2.3.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: chill_2.10-0.5.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: chill-java-0.5.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: config-1.2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: kryo-2.21.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: reflectasm-1.07-shaded.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: minlog-1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: objenesis-1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-mapred-1.7.7-hadoop2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-ipc-1.7.7-tests.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-ipc-1.7.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: netty-3.8.0.Final.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: uncommons-maths-1.2.2a.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: avro-1.7.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: akka-slf4j_2.10-2.3.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json4s-jackson_2.10-3.2.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-core-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json4s-core_2.10-3.2.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json4s-ast_2.10-3.2.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: paranamer-2.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-compress-1.4.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xz-1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: slf4j-api-1.7.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xbean-asm5-shaded-4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-client-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalap-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-common-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-annotations-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-cli-1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: akka-testkit_2.10-2.3.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: zookeeper-3.4.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jline-0.9.94.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-recipes-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: htrace-core-3.0.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-math3-3.4.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xmlenc-0.52.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-httpclient-3.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-io-2.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-net-3.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: derby-10.10.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-ie-driver-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: stax-api-1.0-2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-collections-3.2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-java-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-safari-driver-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-chrome-driver-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-core-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: webbit-0.4.14.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-client-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: log4j-1.2.17.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-remote-driver-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-jaxrs-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-support-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-xc-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jaxb-impl-2.2.3-1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hamcrest-library-1.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-guice-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-lang-2.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: cglib-nodep-2.1_3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-client-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: json-20080701.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-api-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-configuration-1.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-exec-1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: htmlunit-2.14.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: guice-3.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.inject-1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-digester-1.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: aopalliance-1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: cglib-2.2.1-v20090111.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-beanutils-1.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-json-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jettison-1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-beanutils-core-1.8.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jersey-server-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: asm-3.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jna-3.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: mockito-core-1.9.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xml-apis-1.4.01.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-core-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: protobuf-java-2.5.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xercesImpl-2.11.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: nekohtml-1.9.20.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-server-common-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: gson-2.2.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-app-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-shuffle-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-auth-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-jobclient-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: platform-3.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: cssparser-0.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalacheck_2.10-1.11.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-htmlunit-driver-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: sac-1.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-test-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: httpmime-4.3.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-logging-1.1.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-websocket-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-mapreduce-client-common-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-codec-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: apacheds-kerberos-codec-2.0.0-M15.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: apacheds-i18n-2.0.0-M15.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: api-asn1-api-1.0.0-M20.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javassist-3.18.1-GA.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: api-util-1.0.0-M20.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-framework-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: curator-client-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: xalan-2.7.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: htmlunit-core-js-2.14.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: serializer-2.7.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-common-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-math-2.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jets3t-0.9.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: selenium-firefox-driver-2.42.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: httpcore-4.3.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-hdfs-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: kahadb-5.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: mqtt-client-1.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-util-6.1.26.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: mail-1.4.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hawtdispatch-transport-1.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hadoop-yarn-api-2.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hawtdispatch-1.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: httpclient-4.3.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jaxb-api-2.2.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hawtbuf-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: activation-1.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: geronimo-j2ee-management_1.1_spec-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: mx4j-3.0.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spring-context-3.0.7.RELEASE.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-webapp-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-xml-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spring-aop-3.0.7.RELEASE.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-compiler-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-util-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spring-asm-3.0.7.RELEASE.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-servlet-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-security-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spring-beans-3.0.7.RELEASE.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-server-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: mesos-0.21.1-shaded-protobuf.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spring-core-3.0.7.RELEASE.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.servlet-3.0.0.v201112011016.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: stream-2.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: bcprov-jdk15on-1.51.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: base64-2.3.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-core-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: java-xmlbuilder-1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spring-expression-3.0.7.RELEASE.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-jvm-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: activemq-core-5.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-json-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jetty-plus-8.1.14.v20131031.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-graphite-3.1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: geronimo-jms_1.1_spec-1.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: javax.transaction-1.1.1.v201105210645.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jasypt-1.9.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-module-scala_2.10-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-reflect.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jsr305-2.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: ivy-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: oro-2.0.8.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: tachyon-client-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: tachyon-underfs-hdfs-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: tachyon-underfs-s3-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: tachyon-underfs-local-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: pyrolite-4.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: py4j-0.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: org.eclipse.paho.client.mqttv3-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalatest_2.10-2.2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: junit-4.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hamcrest-core-1.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: junit-interface-0.11.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: test-interface-1.0.jar[0m
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[33mwarn[0m] [0mMerging 'LICENSE' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'LICENSE.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/ASL2.0' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/BCKEY.SF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DEPENDENCIES' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DEV.SF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/ECLIPSEF.RSA' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/ECLIPSEF.SF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/ECLIPSE_.SF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/INDEX.LIST' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/eclipse.inf' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/javamail.charset.map' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/javamail.default.address.map' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/javamail.default.providers' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/jersey-module-version' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/mailcap' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.google.protobuf/protobuf-java/pom.properties' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.google.protobuf/protobuf-java/pom.xml' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro-ipc/pom.properties' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.avro/avro-ipc/pom.xml' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/mimetypes.default' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/javax.ws.rs.ext.MessageBodyReader' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/javax.ws.rs.ext.MessageBodyWriter' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.fs.FileSystem' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.mapreduce.protocol.ClientProtocolProvider' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.security.SecurityInfo' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.security.token.TokenIdentifier' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.apache.hadoop.security.token.TokenRenewer' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/tachyon.underfs.UnderFileSystemFactory' with strategy 'filterDistinctLines'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/spring.handlers' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/spring.schemas' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/spring.tooling' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'NOTICE' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'about.html' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'about_files/LICENSE.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'about_files/NOTICE.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'asm-license.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/minlog/Log$Logger.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/minlog/Log.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/AccessClassLoader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/ConstructorAccess.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/FieldAccess.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/MethodAccess.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/AnnotationVisitor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/AnnotationWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Attribute.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/ByteVector.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/ClassReader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/ClassVisitor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/ClassWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Edge.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/FieldVisitor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/FieldWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Frame.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Handle.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Handler.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Item.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Label.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/MethodVisitor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/MethodWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Opcodes.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/esotericsoftware/reflectasm/shaded/org/objectweb/asm/Type.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/image_gif.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/image_jpeg.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/message_rfc822.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/multipart_mixed.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/text_html.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/text_plain.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/handlers/text_xml.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/AString.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/Argument.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/Atom.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/BadCommandException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/ByteArray.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/CommandFailedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/ConnectionException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/Literal.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/LiteralException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/ParsingException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/Protocol.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/ProtocolException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/Response.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/ResponseHandler.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/iap/ResponseInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/ACL.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/AppendUID.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/DefaultFolder$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/DefaultFolder$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/DefaultFolder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPBodyPart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$10.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$11.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$12.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$13.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$14.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$15.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$16.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$17.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$18.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$19.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$5.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$6.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$7.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$8.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$9.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$FetchProfileItem.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder$ProtocolCommand.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPFolder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPMessage.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPMultipartDataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPNestedMessage.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPSSLStore.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPStore$ConnectionPool.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/IMAPStore.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/LengthCounter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/MessageLiteral.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/Rights$Right.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/Rights.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/Utility$Condition.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/Utility.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/BASE64MailboxDecoder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/BASE64MailboxEncoder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/BODY.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/BODYSTRUCTURE.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/ENVELOPE.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/FLAGS.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/FetchResponse.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/IMAPAddress.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/IMAPProtocol.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/IMAPResponse.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/IMAPSaslAuthenticator$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/IMAPSaslAuthenticator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/INTERNALDATE.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/Item.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/ListInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/MailboxInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/MessageSet.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/Namespaces$Namespace.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/Namespaces.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/RFC822DATA.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/RFC822SIZE.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/SaslAuthenticator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/SearchSequence.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/Status.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/UID.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/imap/protocol/UIDSet.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/DefaultFolder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/POP3Folder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/POP3Message.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/POP3SSLStore.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/POP3Store.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/Protocol.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/Response.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/pop3/Status.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/DigestMD5.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPAddressFailedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPAddressSucceededException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPMessage.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPOutputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPSSLTransport.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPSendFailedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/smtp/SMTPTransport.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/ASCIIUtility.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/BASE64DecoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/BASE64EncoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/BEncoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/CRLFOutputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/FolderClosedIOException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/LineInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/LineOutputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/MessageRemovedIOException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/QDecoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/QEncoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/QPDecoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/QPEncoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/SocketFetcher$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/SocketFetcher.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/TraceInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/TraceOutputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/UUDecoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/sun/mail/util/UUEncoderStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/ActivationDataFlavor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/CommandInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/CommandMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/CommandObject.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/DataContentHandler.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/DataContentHandlerFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/DataHandler.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/DataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/FileDataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/FileTypeMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/MailcapCommandMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/MimeType.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/MimeTypeParameterList.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/MimeTypeParseException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/MimetypesFileTypeMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/URLDataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/activation/UnsupportedDataTypeException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Address.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/AuthenticationFailedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Authenticator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/BodyPart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/EventQueue$QueueElement.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/EventQueue.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/FetchProfile$Item.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/FetchProfile.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Flags$Flag.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Flags.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Folder$TerminatorEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Folder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/FolderClosedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/FolderNotFoundException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Header.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/IllegalWriteException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Message$RecipientType.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Message.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/MessageAware.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/MessageContext.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/MessageRemovedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/MessagingException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/MethodNotSupportedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Multipart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/MultipartDataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/NoSuchProviderException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Part.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/PasswordAuthentication.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Provider$Type.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Provider.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Quota$Resource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Quota.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/QuotaAwareStore.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/ReadOnlyFolderException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/SendFailedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Service$TerminatorEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Service.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$5.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$6.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session$7.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Session.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Store.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/StoreClosedException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/StreamLoader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Transport.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/UIDFolder$FetchProfileItem.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/UIDFolder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/URLName.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/Version.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/ConnectionAdapter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/ConnectionEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/ConnectionListener.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/FolderAdapter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/FolderEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/FolderListener.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/MailEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/MessageChangedEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/MessageChangedListener.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/MessageCountAdapter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/MessageCountEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/MessageCountListener.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/StoreEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/StoreListener.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/TransportAdapter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/TransportEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/event/TransportListener.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/AddressException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/AsciiOutputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ContentDisposition.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ContentType.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/HeaderTokenizer$Token.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/HeaderTokenizer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/InternetAddress.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/InternetHeaders$InternetHeader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/InternetHeaders$matchEnum.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/InternetHeaders.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MailDateFormat.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MailDateParser.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimeBodyPart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimeMessage$RecipientType.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimeMessage.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimeMultipart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimePart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimePartDataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimeUtility$1NullInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/MimeUtility.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/NewsAddress.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParameterList$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParameterList$MultiValue.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParameterList$ParamEnum.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParameterList$ToStringBuffer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParameterList$Value.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParameterList.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/ParseException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/PreencodedMimeBodyPart.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/SharedInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/internet/UniqueValue.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/AddressStringTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/AddressTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/AndTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/BodyTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/ComparisonTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/DateTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/FlagTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/FromStringTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/FromTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/HeaderTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/IntegerComparisonTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/MessageIDTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/MessageNumberTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/NotTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/OrTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/ReceivedDateTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/RecipientStringTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/RecipientTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/SearchException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/SearchTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/SentDateTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/SizeTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/StringTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/search/SubjectTerm.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/util/ByteArrayDataSource$DSByteArrayOutputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/util/ByteArrayDataSource.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/util/SharedByteArrayInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/util/SharedFileInputStream$SharedFile.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/mail/util/SharedFileInputStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/EventFilter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/FactoryConfigurationError.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/FactoryFinder.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/Location.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/StreamFilter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLEventFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLEventReader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLEventWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLInputFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLOutputFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLReporter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLResolver.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLStreamConstants.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLStreamException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLStreamReader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/XMLStreamWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/Attribute.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/Characters.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/Comment.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/DTD.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/EndDocument.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/EndElement.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/EntityDeclaration.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/EntityReference.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/Namespace.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/NotationDeclaration.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/ProcessingInstruction.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/StartDocument.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/StartElement.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/events/XMLEvent.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/util/EventReaderDelegate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/util/StreamReaderDelegate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/util/XMLEventAllocator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'javax/xml/stream/util/XMLEventConsumer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'log4j.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanCopier$BeanCopierKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanCopier$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanCopier.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanGenerator$BeanGeneratorKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMap$Generator$BeanMapKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMap$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMapEmitter$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMapEmitter$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMapEmitter$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BeanMapEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BulkBean$BulkBeanKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BulkBean$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BulkBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BulkBeanEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/BulkBeanException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/FixedKeySet.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/ImmutableBean$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/beans/ImmutableBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/AbstractClassGenerator$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/AbstractClassGenerator$Source.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/AbstractClassGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Block.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassEmitter$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassEmitter$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassEmitter$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassEmitter$FieldInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassNameReader$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassNameReader$EarlyExitException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassNameReader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassesKey$Key.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ClassesKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/CodeEmitter$State.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/CodeEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/CodeGenerationException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/CollectionUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Constants.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Converter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Customizer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/DebuggingClassWriter$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/DebuggingClassWriter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/DefaultGeneratorStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/DefaultNamingPolicy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/DuplicatesPredicate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$10.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$11.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$12.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$13.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$14.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$15.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$16.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$5.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$6.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$7.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$8.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$9.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$ArrayDelimiters.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils$ParameterTyper.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/EmitUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/GeneratorStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/KeyFactory$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/KeyFactory$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/KeyFactory$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/KeyFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Local.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/MethodInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/MethodInfoTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/MethodWrapper$MethodWrapperKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/MethodWrapper.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/NamingPolicy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ObjectSwitchCallback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Predicate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ProcessArrayCallback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ProcessSwitchCallback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ReflectUtils$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ReflectUtils$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ReflectUtils$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ReflectUtils$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/ReflectUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/RejectModifierPredicate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Signature.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/TinyBitSet.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/Transformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/TypeUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/core/VisibilityPredicate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Callback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/CallbackFilter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/CallbackGenerator$Context.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/CallbackGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/CallbackHelper.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/CallbackInfo.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Dispatcher.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/DispatcherGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$5.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$6.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer$EnhancerKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Enhancer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Factory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/FixedValue.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/FixedValueGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/InterfaceMaker.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/InvocationHandler.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/InvocationHandlerGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/LazyLoader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/LazyLoaderGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MethodInterceptor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MethodInterceptorGenerator$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MethodInterceptorGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MethodProxy$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MethodProxy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Mixin$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Mixin$MixinKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Mixin$Route.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Mixin.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MixinBeanEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MixinEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/MixinEverythingEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/NoOp$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/NoOp.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/NoOpGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Proxy$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Proxy$ProxyImpl.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/Proxy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/ProxyRefDispatcher.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/proxy/UndeclaredThrowableException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/ConstructorDelegate$ConstructorKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/ConstructorDelegate$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/ConstructorDelegate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClass$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClassEmitter$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClassEmitter$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClassEmitter$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClassEmitter$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClassEmitter$GetIndexCallback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastClassEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastConstructor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastMember.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/FastMethod.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/MethodDelegate$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/MethodDelegate$MethodDelegateKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/MethodDelegate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/MulticastDelegate$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/reflect/MulticastDelegate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/AbstractClassFilterTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/AbstractClassLoader$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/AbstractClassLoader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/AbstractClassTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/AbstractProcessTask.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/AbstractTransformTask.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassEmitterTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassFilter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassFilterTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassReaderGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassTransformerChain.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassTransformerFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassTransformerTee.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/ClassVisitorTee.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/MethodFilter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/MethodFilterTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/TransformingClassGenerator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/TransformingClassLoader.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AbstractInterceptFieldCallback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AccessFieldTransformer$Callback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AccessFieldTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AddDelegateTransformer$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AddDelegateTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AddInitTransformer$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AddInitTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AddPropertyTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/AddStaticInitTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/FieldProvider.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/FieldProviderTransformer$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/FieldProviderTransformer$2.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/FieldProviderTransformer$3.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/FieldProviderTransformer$4.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/FieldProviderTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/InterceptFieldCallback.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/InterceptFieldEnabled.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/InterceptFieldFilter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/InterceptFieldTransformer$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/InterceptFieldTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/UndeclaredThrowableStrategy$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/UndeclaredThrowableStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/UndeclaredThrowableTransformer$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/transform/impl/UndeclaredThrowableTransformer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$ByteComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$ComparatorComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$Comparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$DoubleComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$FloatComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$IntComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$LongComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$ObjectComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter$ShortComparer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/ParallelSorterEmitter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/SorterTemplate.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/StringSwitcher$Generator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/StringSwitcher$StringSwitcherKey.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'net/sf/cglib/util/StringSwitcher.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/BasicDynaBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/BasicDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/BeanAccessLanguageException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/BeanUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/BeanUtilsBean$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/BeanUtilsBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ConstructorUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ContextClassLoaderLocal.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ConversionException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ConvertUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ConvertUtilsBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/Converter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ConvertingWrapDynaBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/DynaBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/DynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/DynaProperty.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/JDBCDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/LazyDynaBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/LazyDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/LazyDynaMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/MappedPropertyDescriptor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/MethodUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/MutableDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/NestedNullException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/PropertyUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/PropertyUtilsBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ResultSetDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/ResultSetIterator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/RowSetDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/WrapDynaBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/WrapDynaClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/AbstractArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/BigDecimalConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/BigIntegerConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/BooleanArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/BooleanConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/ByteArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/ByteConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/CharacterArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/CharacterConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/ClassConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/DoubleArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/DoubleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/FileConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/FloatArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/FloatConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/IntegerArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/IntegerConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/LongArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/LongConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/ShortArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/ShortConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/SqlDateConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/SqlTimeConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/SqlTimestampConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/StringArrayConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/StringConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/converters/URLConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/BaseLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleConvertUtils.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/LocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/ArrayStack.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/Buffer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/BufferUnderflowException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap$CollectionView.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap$EntrySet.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap$KeySet.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap$Values.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/collections/FastHashMap.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/logging/Log.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/logging/LogConfigurationException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/logging/LogFactory.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/logging/impl/NoOpLog.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/logging/impl/SimpleLog$1.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/commons/logging/impl/SimpleLog.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/hadoop/yarn/client/api/impl/package-info.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/hadoop/yarn/client/api/package-info.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/hadoop/yarn/factories/package-info.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/hadoop/yarn/factory/providers/package-info.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/hadoop/yarn/util/package-info.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/Objenesis.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/ObjenesisBase.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/ObjenesisException.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/ObjenesisHelper.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/ObjenesisSerializer.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/ObjenesisStd.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/NullInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/ObjectInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/SerializationInstantiatorHelper.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/basic/AccessibleInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/basic/ConstructorInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/basic/NewInstanceInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/basic/ObjectInputStreamInstantiator$MockStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/basic/ObjectInputStreamInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/basic/ObjectStreamClassInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/gcj/GCJInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/gcj/GCJInstantiatorBase$DummyStream.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/gcj/GCJInstantiatorBase.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/gcj/GCJSerializationInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/jrockit/JRockit131Instantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/jrockit/JRockitLegacyInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/perc/PercInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/perc/PercSerializationInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/sun/Sun13Instantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/sun/Sun13InstantiatorBase.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/sun/Sun13SerializationInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/instantiator/sun/SunReflectionFactorySerializationInstantiator.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/strategy/BaseInstantiatorStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/strategy/InstantiatorStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/strategy/SerializingInstantiatorStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/objenesis/strategy/StdInstantiatorStrategy.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'overview.html' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'plugin.properties' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'reference.conf' with strategy 'concat'[0m
+[0m[[33mwarn[0m] [0mMerging 'rootdoc.txt' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mStrategy 'concat' was applied to a file[0m
+[0m[[33mwarn[0m] [0mStrategy 'discard' was applied to 6 files[0m
+[0m[[33mwarn[0m] [0mStrategy 'filterDistinctLines' was applied to 8 files[0m
+[0m[[33mwarn[0m] [0mStrategy 'first' was applied to 712 files[0m
+[0m[[0minfo[0m] [0mAssembly up to date: /home/ohno/bin/spark-1.6.0/external/mqtt/target/scala-2.10/spark-streaming-mqtt-test-1.6.0.jar[0m

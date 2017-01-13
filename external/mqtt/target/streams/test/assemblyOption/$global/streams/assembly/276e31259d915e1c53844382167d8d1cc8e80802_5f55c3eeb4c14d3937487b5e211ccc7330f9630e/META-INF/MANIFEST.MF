@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: Curator Testing
+Implementation-Version: 2.6.0
+Implementation-Vendor-Id: org.apache.curator
+Built-By: cam
+Build-Jdk: 1.6.0_65
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Curator Testing
+Created-By: Apache Maven 3.2.2
+Specification-Version: 2.6.0
+Archiver-Version: Plexus Archiver
+

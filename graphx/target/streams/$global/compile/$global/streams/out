@@ -1,0 +1,6 @@
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala:124: method mapReduceTriplets in class Graph is deprecated: use aggregateMessages[0m
+[0m[[33mwarn[0m] [0m    var messages = g.mapReduceTriplets(sendMsg, mergeMsg)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala:138: method mapReduceTriplets in class Graph is deprecated: use aggregateMessages[0m
+[0m[[33mwarn[0m] [0m      messages = g.mapReduceTriplets([0m
+[0m[[33mwarn[0m] [0m[0m
