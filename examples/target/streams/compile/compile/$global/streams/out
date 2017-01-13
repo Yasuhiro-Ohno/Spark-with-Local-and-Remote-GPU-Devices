@@ -1,0 +1,70 @@
+[0m[[0mdebug[0m] [0mThe org.apache.spark.graphx.VertexRDD source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.graphx.VertexRDD: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.graphx.VertexRDD.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/graphx/Analytics.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/graphx/SynthBenchmark.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.rdd.RDD$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	initmallocInt2, reduceDoubleByGPU, initmallocInt3.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.rdd.RDD$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.rdd.RDD$.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SparkPageRank.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/TwitterAlgebirdCMS.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/DecisionTreeRunner.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/SimpleFPGrowth.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/SingleGPUSortKey.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/DecisionTreeRegressionExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/LDAExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/SparkSortKey.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/SqlNetworkWordCount.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/MovieLensALS.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/GradientBoostingRegressionExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/PowerIterationClusteringExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/SparkWordcount.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/CassandraCQLTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SparkKMeans.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/clickstream/PageViewStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/MultiGPUSortKey.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/SingleCPUSortKey.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/RankingMetricsExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SkewedGroupByTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/GroupByTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ml/MovieLensALS.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/TwitterPopularTags.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/SampledRDDs.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/CassandraTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/MultiBroadcastTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/RecommendationExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/IsotonicRegressionExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/GPUSortKey.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/MultiLabelMetricsExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/CosineSimilarity.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SparkTC.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/graphx/SynthBenchmark.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/ohno/GPUSortKey2.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SimpleSkewedGroupByTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/RandomRDDGeneration.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/QueueStream.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/LogQuery.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/mllib/RandomForestRegressionExample.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/DFSReadWriteTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/RecoverableNetworkWordCount.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(org.apache.spark.graphx.VertexRDD,ModifiedNames(regularNames = initmallocInt2, initmalloc, initmallocByte, initmallocInt, sortIntKeyByMultiGPU, initmallocInt3, initmallocIntInt, initmallocDouble, reduceDoubleByGPU, implicitNames = )), NamesChange(org.apache.spark.rdd.RDD$,ModifiedNames(regularNames = initmallocInt2, reduceDoubleByGPU, initmallocInt3, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

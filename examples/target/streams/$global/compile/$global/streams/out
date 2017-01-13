@@ -1,0 +1,12 @@
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/CassandraCQLTest.scala:83: constructor Job in class Job is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    val job = new Job()[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SparkTachyonHdfsLR.scala:74: constructor SparkContext in class SparkContext is deprecated: Passing in preferred locations has no effect at all, see SPARK-8949[0m
+[0m[[33mwarn[0m] [0m    val sc = new SparkContext(sparkConf,[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/CassandraTest.scala:62: constructor Job in class Job is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    val job = new Job()[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/ohno/bin/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/SparkHdfsLR.scala:77: constructor SparkContext in class SparkContext is deprecated: Passing in preferred locations has no effect at all, see SPARK-8949[0m
+[0m[[33mwarn[0m] [0m    val sc = new SparkContext(sparkConf,[0m
+[0m[[33mwarn[0m] [0m[0m
